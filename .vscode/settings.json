@@ -8,6 +8,20 @@
         "RCPAREN",
         "RRPAREN",
         "RSPAREN",
-        "docmark"
-    ]
+        "docmark",
+        "postprocess"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/node_modules": true
+    },
+    "explorerExclude.backup": null
 }

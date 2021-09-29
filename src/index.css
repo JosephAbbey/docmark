@@ -1,0 +1,196 @@
+/* syntax highlighting */
+
+.token.keyword {
+    color: #ff7b72;
+}
+
+.token.operator {
+    color: #79c0ff;
+}
+
+.token.function {
+    color: rgb(210, 168, 255);
+}
+
+.token.punctuation {
+    color: rgb(201, 209, 217);
+}
+
+.token.string {
+    color: rgb(165, 214, 255);
+}
+
+.token.comment {
+    color: rgb(139, 148, 158);
+}
+
+.token.tag {
+    color: rgb(126, 231, 135);
+}
+
+.token.attr-value {
+    color: rgb(165, 214, 255);
+}
+
+.token.attr-name {
+    color: rgb(121, 192, 255);
+}
+
+/* main */
+
+body {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 30px;
+    background-color: rgb(13, 17, 23);
+    color: rgb(201, 209, 217);
+    word-wrap: break-word;
+}
+
+body > *:first-child {
+    margin-top: 0 !important;
+}
+
+body > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+blockquote {
+    border-left: 0.25em solid #30363d;
+    padding-left: 16px;
+}
+
+img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: #0d1117;
+}
+
+ul,
+ol {
+    padding-left: 2em;
+}
+
+ol[type='1'] {
+    list-style-type: decimal;
+}
+
+ol[type='a'] {
+    list-style-type: lower-alpha;
+}
+
+ol[type='i'] {
+    list-style-type: lower-roman;
+}
+
+ol:not([type]) {
+    list-style-type: decimal;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table {
+    display: block;
+    width: 100%;
+    width: max-content;
+    max-width: 100%;
+    overflow: auto;
+}
+
+th {
+    font-weight: 600;
+}
+
+th,
+td {
+    padding: 6px 13px;
+    border: 1px solid 30363d;
+}
+
+tr {
+    background-color: #0d1117;
+    border-top: 1px solid #21262d;
+}
+
+tr:nth-child(2n) {
+    background-color: #161b22;
+}
+
+table img {
+    background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+h1 {
+    padding-bottom: 0.3em;
+    font-size: 2em;
+    border-bottom: 1px solid #21262d;
+}
+
+h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #21262d;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.875em;
+}
+
+h6 {
+    font-size: 0.85em;
+    color: #8b949e;
+}
+
+pre {
+    background-color: rgb(22, 27, 34);
+    color: rgb(201, 209, 217);
+    border-radius: 6px;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+}
+
+:not(pre) > code {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgb(110, 118, 129, 0.4);
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+        Liberation Mono, monospace;
+}
